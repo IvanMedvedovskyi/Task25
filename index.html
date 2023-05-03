@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .container > div {
+            border: 1px solid black;
+            width: 33%;
+            min-height: 100px;
+        }
+
+        .btn_style {
+            margin-top: 10px;
+            margin-left: 5px;
+            padding: 5px 5px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="categories"></div>
+        <div class="products"></div>
+        <div class="details"></div>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
